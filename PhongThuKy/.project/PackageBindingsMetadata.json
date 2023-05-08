@@ -198,6 +198,39 @@
         }
       }
     ],
+    "UiPath.Core.Activities.QueueTrigger": [
+      {
+        "Type": "QueueTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          },
+          "name": {
+            "Value": "QueueName",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "MaxJobsForActivation": {
+            "Value": "MaxJobsForActivation",
+            "ValueSource": "Property"
+          },
+          "ItemsActivationThreshold": {
+            "Value": "ItemsActivationThreshold",
+            "ValueSource": "Property"
+          },
+          "ItemsPerJobActivationTarget": {
+            "Value": "ItemsPerJobActivationTarget",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
     "UiPath.Core.Activities.SetAsset": [
       {
         "Type": "asset",
@@ -366,6 +399,21 @@
         }
       }
     ],
+    "UiPath.Core.Activities.TimeTrigger": [
+      {
+        "Type": "TimeTrigger",
+        "Arguments": {
+          "TimeZone": {
+            "Value": "TimeZone",
+            "ValueSource": "Property"
+          },
+          "CronExpression": {
+            "Value": "CronExpression",
+            "ValueSource": "Property"
+          }
+        }
+      }
+    ],
     "UiPath.Core.Activities.WaitQueueItem": [
       {
         "Type": "queue",
@@ -376,52 +424,6 @@
           },
           "folderPath": {
             "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        }
-      }
-    ],
-    "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
-      {
-        "Type": "Connection",
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          },
-          "ConnectionName": {
-            "Value": "ConnectionAccountName",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
-            "ValueSource": "Property"
-          }
-        }
-      }
-    ],
-    "UiPath.Mail.Activities.Business.GmailApplicationCard": [
-      {
-        "Type": "Connection",
-        "Values": {
-          "ConnectionId": {
-            "Value": "ConnectionId",
-            "ValueSource": "Property"
-          },
-          "ConnectionName": {
-            "Value": "ConnectionAccountName",
-            "ValueSource": "Property"
-          },
-          "Connector": {
-            "Value": "Connector",
-            "ValueSource": "Property"
-          },
-          "UseConnectionService": {
-            "Value": "UseConnectionService",
             "ValueSource": "Property"
           }
         }
