@@ -1,0 +1,73 @@
+{
+  "name": "TuyenDung",
+  "description": "Blank Process",
+  "main": "XacNhanPV.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.19.0-preview]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.0-preview]",
+    "UiPath.Testing.Activities": "[23.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "ThuMoiPV.xaml",
+      "uniqueId": "e141ee61-b86b-46d2-8fb7-07ca66acf863",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ThuMoiLV.xaml",
+      "uniqueId": "613a084b-0372-4430-bffc-611ac783a367",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "XacNhanPV.xaml",
+      "uniqueId": "a314d8cc-4728-496f-ac80-03ebd70b28a0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
